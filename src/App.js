@@ -1,6 +1,6 @@
 import React from 'react';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core';
-import Home from './Home';
+import HomePage from './HomePage';
 
 const App = () => {
   const theme = createMuiTheme({
@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <Home />
+      <HomePage />
     </ThemeProvider>
   );
 };
